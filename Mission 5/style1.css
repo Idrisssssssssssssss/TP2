@@ -1,0 +1,79 @@
+
+.d1
+{
+  b
+  width: 200px;
+  float: left;
+  height: 350px;
+  border-radius: 20%;
+}
+
+.d2
+{
+	
+	width: 200px;
+	float: right;
+	height: 350px;
+	border-radius: 10%;
+}
+h2{
+color: blue ;
+font-style: italic;
+}
+header{
+	margin: 3% ;
+	border: 5px solid black;
+	height: 400px;
+	background-color: grey;
+	border-radius: 10%;
+
+
+}
+
+
+.s1{
+	margin: 3% ;
+	border: 5px solid black;
+	height: 400px;
+	background-color: white;
+	border-radius: 5%;
+
+}
+section{
+	margin: 3%
+}
+.div1{
+      
+    float: left;
+}
+.div2{
+     margin: 3% ; 
+     margin-left: 10% ;
+
+}
+.div3{
+      clear: both; 
+    float: left;
+}
+.div4{
+      margin: 3% ;
+      margin-left: -6% ;
+    float: left;
+}
+.div5{
+       clear: both; 
+    float: left;
+}
+.div6{
+       margin-left: -10% ;
+       margin: 3% ;
+    float: left;
+}
+.div7{
+       clear: both; 
+    float: left;
+}
+.div8{
+       margin: 3% ;
+    float: left;
+}
