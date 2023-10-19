@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+  
+    font-family: Verdana, Calibri, sans-serif;
+  }
+  
+  nav{
+    width: 100%;
+    background-color: #424558;
+  }
+  
+  .menu-mobile{
+    display: none;
+  }
+  
+  nav input[type=checkbox]{
+    display: none;
+  }
+  
+  nav > ul{
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  nav > ul > li{
+    float: left;
+    position: relative;
+  }
+  
+  nav li{
+    list-style-type: none;
+  }
+  
+  .menu-html .submenu{
+    background-color: rgb(230, 100, 40);
+  }
+  
+  .menu-css .submenu{
+    background-color: rgb(000, 160, 240);
+  }
+  
+  .menu-js .submenu{
+    background-color: rgb(251, 216, 99);
+  }
+  
+  .submenu{
+    display: none;
+  }
+  
+  .submenu li{
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+  }
+  
+  nav a{
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  nav > ul > li > a{
+    padding: 20px 30px;
+    color: #fff;
+  }
+  
+  .menu-html:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+  }
+  
+  .menu-html .submenu li:hover{
+    background-color: rgba(210, 77, 60);
+  }
+  
+  .menu-css:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+  }
+  
+  .menu-css .submenu li:hover{
+    background-color: rgba(000, 115, 200);
+  }
+  
+  .menu-js:hover{
+    border-top: 5px solid
+}
+    
