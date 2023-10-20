@@ -1,47 +1,79 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <title>Index - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav>
-        <label for="menu-mobile" class="menu-mobile">Menu</label>
-        <input type="checkbox" id="menu-mobile" role="button">
-        <ul>
-            <li class="menu-html"><a href="#">Mission</a>
-                <ul class="submenu">
-                    <li><a href="tp2.html">Mission 2</a></li>
-                    <li><a href="./Mission%203/tp3.html" >Mission 3</a></li>
-                    <li><a href="./Mission%204/tp4.html">Mission 4</a></li>
-                    <li><a href="#">Cours XX XXX</a></li>
+
+
+<header>
+
+
+    <nav class="navbar-header">
+
+        <ul class="liste-menus">
+            <li class="menus"> <a href="#"> Accueil </a></li>     <!--Menus permettant une navigation entre les différentes pages-->
+           
+            <li class="menus-tp"> <a href="#"> Mission </a>
+                <ul class="sous-liste-tp">
+                    <li class="sous-menus-tp"> <a href="tp2.html">Mission 2</a></li>
+                    <li class="sous-menus-tp"> <a href="./Mission%203/tp3.html" >Mission 3</a></li>
+                    <li class="sous-menus-tp"> <a href="./Mission%204/tp4.html">Mission 4</a></li>
+                    <li class="sous-menus-tp"> <a href="#">En attente... </a></li>
+                    <li class="sous-menus-tp"> <a href="#">En attente...</a></li>
+                    <li class="sous-menus-tp"> <a href="#">En attente...</a></li>
+                    <li class="sous-menus-tp"> <a href="#">En attente...</a></li>
                 </ul>
             </li>
 
-
-            <li class="menu-css"><a href="#">TP</a>
-                <ul class="submenu">
-                    <li><a href="./tp5/tp5.4.html">tp5.4</a></li>
-                    <li><a href="./tp6/tp6_ex1.html">tp6 ex1</a></li>
-                    <li><a href="./tp6/tp6_ex2.html">tp6 ex2</a></li>
-                    <li><a href="#">Cours XX XXX</a></li>
+            <li class="menus-JS"> <a href="#">TP</a>
+                <ul class="sous-liste-JS">
+                    <li class="sous-menus-JS"> <a href="./tp5/tp5.4.html">TP.5.4</a></li>
+                    <li class="sous-menus-JS"> <a href="./tp6/tp6_ex1.html">TP.6 ex1</a></li>
+                    <li class="sous-menus-JS"> <a href="./tp6/tp6_ex2.html">TP.6 ex2</a></li>
                 </ul>
             </li>
 
-
-            <li class="menu-js"><a href="#">JS</a>
-                <ul class="submenu">
-                    <li><a href="#">Cours ZZ ZZZ</a></li>
-                    <li><a href="#">Cours ZZ ZZZ</a></li>
-                    <li><a href="#">Cours ZZ ZZZ</a></li>
-                    <li><a href="#">Cours ZZ ZZZ</a></li>
+            <li class="menus-BD"> <a href="#"> Bases de données </a>
+                <ul class="sous-liste-BD">
+                    <li class="sous-menus-BD"> <a href="#"> /BD Test\ </a></li>
                 </ul>
             </li>
-            <li class="menu-contact"><a href="#">Contact</a></li>
-        </ul>
+
+            <li class="menus-PHP"> <a href="#"> PHP </a>
+                <ul class="sous-liste-PHP">
+                    <li class="sous-menus-PHP"> <a href="#"> /PHP Test\ </a></li>
+                </ul>
+            </li>
+
+            <li class="menus-mission"> <a href="#"> Missions </a>
+                <ul class="sous-liste-mission">
+                    <li class="sous-menus-mission"> <a href="./Missions/Mission_2/index.html"> Mission 2 - I-Frame</a></li> <!--Sous-menu déroulant qui s'affiche uniquement lorsqu'on passe la souris dessus, afin d'accéder aux 6 compétences différentes -->
+                    <li class="sous-menus-mission"> <a href="./Missions/Mission_3/index.html"> Mission 3 - QCM v2</a></li>
+                    <li class="sous-menus-mission"> <a href="./Missions/Mission_4/index.html"> Mission 4 - Mon CV</a></li>
+                </ul>
+            </li>
+
+            <li class="menus-Certifications"> <a href="#"> Certifications </a>
+                <ul class="sous-liste-Certifications">
+                    <li class="sous-menus-Certifications"> <a href="./Certifications/Certificat_Module_1.pdf"> Certificat Mooc - CNIL n°1 </a></li>
+                    <li class="sous-menus-Certifications"> <a href="./Certifications/Certificat_Module_2.pdf"> Certificat Mooc - CNIL n°2 </a></li>
+                    <li class="sous-menus-Certifications"> <a href="./Certifications/Certificat_Module_3.pdf"> Certificat Mooc - CNIL n°3 </a></li>
+                    <li class="sous-menus-Certifications"> <a href="./Certifications/Certificat_Module_4.pdf"> Certificat Mooc - CNIL n°4 </a></li>
+                    <li class="sous-menus-Certifications"> <a href="./Certifications/Certificat_Module_5.pdf"> Certificat Mooc - CNIL n°5 </a></li>
+                </ul>
+            </li>      
     </nav>
+   
+</header>
 
 
+
+
+<body>
+   
 </body>
-</html>
+

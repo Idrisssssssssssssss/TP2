@@ -1,99 +1,96 @@
-body{
-    padding: 0;
-    margin: 0;
-  
-    font-family: Verdana, Calibri, sans-serif;
-  }
-  
-  nav{
-    width: 100%;
-    background-color: #424558;
-  }
-  
-  .menu-mobile{
-    display: none;
-  }
-  
-  nav input[type=checkbox]{
-    display: none;
-  }
-  
-  nav > ul{
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav > ul::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  nav > ul > li{
-    float: left;
-    position: relative;
-  }
-  
-  nav li{
-    list-style-type: none;
-  }
-  
-  .menu-html .submenu{
-    background-color: rgb(230, 100, 40);
-  }
-  
-  .menu-css .submenu{
-    background-color: rgb(000, 160, 240);
-  }
-  
-  .menu-js .submenu{
-    background-color: rgb(251, 216, 99);
-  }
-  
-  .submenu{
-    display: none;
-  }
-  
-  .submenu li{
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .submenu li a{
-    padding: 15px 30px;
-    font-size: 13px;
-    color: #222538;
-    width: 270px;
-  }
-  
-  nav a{
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  nav > ul > li > a{
-    padding: 20px 30px;
-    color: #fff;
-  }
-  
-  .menu-html:hover{
-    border-top: 5px solid #e44d26;
-    background-color: rgba(228, 77, 38, 0.15);
-  }
-  
-  .menu-html .submenu li:hover{
-    background-color: rgba(210, 77, 60);
-  }
-  
-  .menu-css:hover{
-    border-top: 5px solid #0070bb;
-    background-color: rgba(000, 112, 192, 0.15);
-  }
-  
-  .menu-css .submenu li:hover{
-    background-color: rgba(000, 115, 200);
-  }
-  
-  .menu-js:hover{
-    border-top: 5px solid
+html {                                    
+    font-family: Arial, Helvetica, sans-serif;
 }
-    
+
+
+.navbar-header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(222, 188, 143);
+    border-bottom: 0.5px solid rgb(85, 1, 1);
+
+}
+
+.liste-menus {
+    display: flex;
+    justify-content: center;
+    color  : #F1F1F1;
+    list-style-type : none;
+    height: 100%;
+    line-height: 50px;
+    font-size: 22px;
+    margin-top: 0px; 
+
+}
+
+
+.sous-liste-tp, .sous-liste-mission, .sous-liste-JS, .sous-liste-BD, .sous-liste-PHP, .sous-liste-Certifications {
+    display:none;  
+    position : absolute;            
+    padding : 0;
+    text-align: center;
+   
+}
+
+
+
+.sous-menus-tp, .sous-menus-mission, .sous-menus-JS, .sous-menus-BD, .sous-menus-PHP, .sous-menus-Certifications {
+   
+    list-style-type: none;  
+    text-align: center;
+    padding: 0 0px;
+    background: rgb(243, 213, 173);
+    border: 0.1px solid white;
+    color: white;
+   
+}
+
+
+.menus-tp:hover .sous-liste-tp {    
+    display: block;
+}
+.menus-JS:hover .sous-liste-JS {   
+    display: block;
+}
+.menus-BD:hover .sous-liste-BD {    
+    display: block;
+}
+.menus-PHP:hover .sous-liste-PHP {   
+    display: block;
+}
+.menus-mission:hover .sous-liste-mission {    
+    display: block;
+}
+.menus-Certifications:hover .sous-liste-Certifications {    
+    display: block;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition : 0.3s;
+    width:100%;
+    height: 100%;
+    margin-right: 42px;
+    text-align: center;    
+}
+.menus:hover{
+    background-color:white;
+    color :rgb(222, 188, 143);
+}
+
+
+body{
+    background-image: url(img_index/background_landscape.jpg); 
+    background-size: cover;
+}
+
+header a:hover {
+    background-color: #F1F1F1;
+    color : rgb(222, 188, 143);
+    box-shadow: 0px 0px 5px 5px white;
+
+}   
