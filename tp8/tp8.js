@@ -10,7 +10,7 @@ function seconnecter() {
 }
 
 function seconnecter2() {
-    window.location.href='index2.html';
+    window.location.href='https://idrisssssssssssssss.github.io/TP2/';
 }
 
 function cdc() {
@@ -22,7 +22,7 @@ function cdc() {
 }
 
 function swich() {
-    var color = prompt("Entrez une couleur");
+    var color = prompt("Entrez une couleur | 🟢 🔵 🟣 🔴");
     switch (color) {
         case "rouge":
             document.body.style.background = "red";
@@ -102,5 +102,31 @@ function seconnecter3(){
     }
 
 function ajoutligne(){
-    window.location.href='ajoutligne.html';
+    window.location.href='https://idrisssssssssssssss.github.io/TP2/';
+}
+
+function bonus(){
+
+    var testa = ""
+    var total = ""
+    var prixttc = 0
+    
+    do{
+        var article = prompt("Votre article")
+        var price = prompt("Le prix")
+        var qty = prompt("La quantité")
+
+        alert(`Vos ${article} vous coûterons ${price * qty}€`)
+        total = Number(price)*Number(qty)
+        prixttc += total
+        testa += ("Article : " +article+" <br> Prix : "+price +"€"+ " <br> Quantité : "+qty+ " <br> Total : "+total+"€"+"<br><br><br>")
+        alert('Le coût total de vos articles est de ' + prixttc + "€")
+
+        next = prompt("Voulez-vous ajouter d'autres articles ? (Oui/Non)");
+    }
+    while(next != "Non");
+    document.write(testa);
+    document.write("Prix TTC : "+prixttc+"€");
+
+
 }
