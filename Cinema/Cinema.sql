@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Serveur: 127.0.0.1
--- Généré le : Lun 20 Novembre 2023 à 17:47
+-- Généré le : Lun 20 Novembre 2023 à 17:53
 -- Version du serveur: 5.5.10
 -- Version de PHP: 5.3.6
 
@@ -37,6 +37,8 @@ CREATE TABLE IF NOT EXISTS `artiste` (
 -- Contenu de la table `artiste`
 --
 
+INSERT INTO `artiste` (`idRealisateur`, `nom`, `prénom`, `anneeNaiss`) VALUES
+('idriss', 'lamine', 'idriss', '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -60,6 +62,8 @@ CREATE TABLE IF NOT EXISTS `film` (
 -- Contenu de la table `film`
 --
 
+INSERT INTO `film` (`idFilm`, `titre`, `année`, `genre`, `resume`, `resume idRealisateur`, `codePays`) VALUES
+('titanic', 'titanic', '0000-00-00', 'romantique', 'plus grand bateau ayant coulée', 'plus grand bateau ayant coulée', '92160');
 
 -- --------------------------------------------------------
 
@@ -102,6 +106,8 @@ CREATE TABLE IF NOT EXISTS `notation` (
 -- Contenu de la table `notation`
 --
 
+INSERT INTO `notation` (`id_notation`, `email`, `idFilm`, `note`) VALUES
+('49645', 'chergui.siob@gmail.com', 'titanic', 15);
 
 -- --------------------------------------------------------
 
@@ -143,6 +149,8 @@ CREATE TABLE IF NOT EXISTS `rôle` (
 -- Contenu de la table `rôle`
 --
 
+INSERT INTO `rôle` (`id_role`, `idFilm`, `idrRealisateur`, `nomRole`) VALUES
+('personnage principal', 'titanic', 'idriss', 'Bobby');
 
 --
 -- Contraintes pour les tables exportées
