@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Serveur: 127.0.0.1
--- Généré le : Lun 20 Novembre 2023 à 17:35
+-- Généré le : Lun 20 Novembre 2023 à 17:47
 -- Version du serveur: 5.5.10
 -- Version de PHP: 5.3.6
 
@@ -79,6 +79,8 @@ CREATE TABLE IF NOT EXISTS `internaute` (
 -- Contenu de la table `internaute`
 --
 
+INSERT INTO `internaute` (`email`, `nom`, `prenom`, `region`) VALUES
+('chergui.siob@gmail.com', 'CHERGUI', 'BEMBA', 'Ile de France');
 
 -- --------------------------------------------------------
 
@@ -118,6 +120,8 @@ CREATE TABLE IF NOT EXISTS `pays` (
 -- Contenu de la table `pays`
 --
 
+INSERT INTO `pays` (`code_pays`, `nom`, `langue`) VALUES
+('92160', 'France', 'Francais');
 
 -- --------------------------------------------------------
 
