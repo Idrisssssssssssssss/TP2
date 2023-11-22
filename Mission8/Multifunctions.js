@@ -2,7 +2,7 @@
 function set_str()
 {
   experiment = document.getElementById("experiment-00");
-  text_chain = prompt("Entrez a string: ");
+  text_chain = prompt("Entrez une chaîne: ");
   // console.log(experiment.innerHTML);
   // experiment.innerHTML = text_chain;
 
