@@ -1,7 +1,7 @@
 
 body
 {
-    background-color: rgb(127, 136, 255);;
+    background-color: rgb(127, 136, 255);
 }
 
 h1
@@ -83,7 +83,7 @@ button
     height: 30px;
     border-radius: 5px;
     color: black;
-    background-color: rgb(127, 136, 255);;
+    background-color: rgb(127, 136, 255);
     transition: 0.3s ease-in-out;
 }
 
